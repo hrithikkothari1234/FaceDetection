@@ -1,6 +1,18 @@
-# FaceDetectionUsingApi
-Image Processing of a url and detecting the faces using Clarifai Api .. with Reactjs and Nodejs...<br/>
-Final Website Link : https://hritik-face-recognition.herokuapp.com<br/>
-For the detection add urls like https://assets.teenvogue.com/photos/5ca368e87951d55db531218c/16:9/w_2560%2Cc_limit/hero-shawn-mendes-face-scar.jpg
+# Face Detection Website
+* Link : https://hritik-face-recognition.herokuapp.com
+
+# Info
+Image Processing and detecting the faces <br/>
+
+# Api used for Image Processing :
+* Clarifai Api
+
+# Made Using
+* React.js
+* Node.js
+* Many more npms.
+
+For Detection add any available image url <br/>
+* Example Url: https://assets.teenvogue.com/photos/5ca368e87951d55db531218c/16:9/w_2560%2Cc_limit/hero-shawn-mendes-face-scar.jpg
 
 ![alt text](https://raw.githubusercontent.com/hrithikkothari1234/FaceDetectionUsingApi/master/exampleimage.png)
