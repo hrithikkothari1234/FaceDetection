@@ -10,7 +10,14 @@ Image Processing and detecting the faces <br/>
 # Made Using
 * React.js
 * Node.js
-* Many more npms.
+* Many npms
+
+# Setup
+To run this project clone it and then :
+```
+$ npm install
+$ npm start / $ npm run start / $ nodemon start
+```
 
 For Detection add any available image url <br/>
 * Example Url: https://assets.teenvogue.com/photos/5ca368e87951d55db531218c/16:9/w_2560%2Cc_limit/hero-shawn-mendes-face-scar.jpg
