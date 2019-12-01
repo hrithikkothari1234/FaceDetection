@@ -9,8 +9,11 @@ Image Processing and detecting the faces <br/>
 
 # Made Using
 * React.js
-* Node.js
-* Many npms
+* Clarifai
+* Tachyons
+* Particle.js
+* react-tilt
+* etc.
 
 # Setup
 To run this project clone it and then :
