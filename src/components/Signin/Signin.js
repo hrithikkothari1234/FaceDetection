@@ -14,21 +14,7 @@ constructor(props){
      this.setState({signInPassword:event.target.value})
     }
     onSubmitSignin=() =>{
-    fetch('https://hritik-facerecognition.herokuapp.com/signin',{
-      method: 'post',
-      headers: {'Content-Type':'application/json'},
-      body: JSON.stringify({
-        email:this.state.signInEmail,
-        password:this.state.signInPassword
-      })
-    })
-    .then(response => response.json())
-      .then(user => {
-        if(user.id){
-          this.props.loadUser(user);
-          this.props.onRouteChange('home');
-        }
-      })
+      
     }
 render(){
   return(

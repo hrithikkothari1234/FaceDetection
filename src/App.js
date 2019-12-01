@@ -119,7 +119,7 @@ class App extends Component{
    this.state.input)
    .then (response => {
      if(response){
-       fetch('https://hritik-facerecognition.herokuapp.com/image',{
+       fetch('https://source.unsplash.com/random/500x500',{
          method: 'put',
          headers: {'Content-Type':'application/json'},
          body: JSON.stringify({

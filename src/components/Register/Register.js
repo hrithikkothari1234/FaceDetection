@@ -9,32 +9,19 @@ class Register extends React.Component{
       Name: ''
     }}
       onEmailChange= (event) =>{
-       this.setState({Email:event.target.value})
+        this.setState({Email:event.target.value})
       }
       onPasswordChange= (event) =>{
-       this.setState({Password:event.target.value})
+        this.setState({Password:event.target.value})
       }
       onNameChange= (event)=>{
-      this.setState({Name:event.target.value})
+        this.setState({Name:event.target.value})
       }
 
       onSubmitRegister = () =>{
-      fetch('https://hritik-facerecognition.herokuapp.com/register',{
-        method: 'post',
-        headers: {'Content-Type':'application/json'},
-        body: JSON.stringify({
-          email: this.state.Email,
-          password: this.state.Password,
-          name: this.state.Name
-        })
-      })
-      .then(response=>response.json())
-      .then(user=>{
-        if(user){
-          this.props.loadUser(user);
+
+          this.props.loadUser(this.state.Name);
           this.props.onRouteChange('home');
-        }
-      })
       }
 
 
